@@ -17,6 +17,7 @@ export async function GET(request: NextRequest) {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': 'https://app.storyblok.com'
                 },
             }
         );
